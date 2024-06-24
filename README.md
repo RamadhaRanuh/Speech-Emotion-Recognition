@@ -15,8 +15,6 @@ This project focuses on recognizing emotions from speech using Convolutional Neu
   - [Evaluation](#evaluation)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [Installation](#installation)
-- [Usage](#usage)
 
 ## Introduction
 
@@ -76,33 +74,4 @@ Analysis of these results indicates that data augmentation is effective in impro
 
 The conclusion of this project is that Convolutional Neural Networks (CNN) can effectively be used for emotion recognition from speech with high accuracy, especially when data augmentation is applied. Data augmentation techniques significantly improve model performance, with the augmented model achieving a test accuracy of 60.64% compared to 56.2% for the model without augmentation. This confirms the importance of data variation in training deep learning models to improve generalization ability and model accuracy. However, the difference in loss between training and validation indicates a need for further regularization to reduce overfitting.
 
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/speech-emotion-recognition.git
-    ```
-
-2. Navigate to the project directory:
-    ```sh
-    cd speech-emotion-recognition
-    ```
-
-3. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-4. Run the application:
-    ```sh
-    python app.py
-    ```
-
-## Usage
-
-1. Launch the application by running `python app.py`.
-2. Use the interface to input audio recordings and get emotion predictions.
-3. The application will display the predicted emotions based on the CNN model.
 
